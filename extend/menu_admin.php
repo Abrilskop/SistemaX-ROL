@@ -7,15 +7,17 @@
       <div class="background">
         <img src="../img/logo.jpeg"  >
       </div>
-      <a href="" ><img src="../img/gia.jpeg" class="circle" alt=""></a>
+      <a href="../perfil/index.php">
+        <img src="../usuarios/<?php echo $_SESSION['foto']; ?>" class="circle" alt="">
+      </a>
       <br>
       <br>
       <br>
-      <a href="" class="black-text" >Alexandra Ramos</a>
-      <a href="" class="black-text">uberpot.ia@gmail.com</a>
+      <a href="../perfil/perfil.php" class="green-text"><?php echo $_SESSION['nombre']; ?></a>
+      <a href="" class="green-text"><?php echo $_SESSION['correo']; ?></a>
     </div>
   </li>
-  <li><a href="../inicio/inicio.php"><i class="material-icons">home</i> INICIO</a></li>
+  <li><a href="../inicio/index.php"><i class="material-icons">home</i> INICIO</a></li>
   <li><div class="divider"></div></li>
 
   <li><a href="../clientes/index.php"><i class="material-icons">person_add</i> ALTA DE CLIENTES</a></li>
