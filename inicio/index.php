@@ -7,6 +7,7 @@ include "../conexion/conexion.php"; ?>
     <div class="card">
       <div class="card-content">
         <span class="card-title">INICIO</span>
+        <p>Pagina Principal</p>
       </div>
     </div>
   </div>
