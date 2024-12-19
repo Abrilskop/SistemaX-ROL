@@ -1,5 +1,7 @@
 <?php include "../extend/header.php";
-include "../conexion/conexion.php"; ?>
+include "../conexion/conexion.php"; 
+include "../extend/permiso.php"
+?>
 
 <!--Panel-->
 <div class="row">
@@ -29,6 +31,7 @@ include "../conexion/conexion.php"; ?>
             <option value="" disabled selected >ELIGE UN NIVEL DE USUARIO</option>
             <option value="ADMINISTRADOR">ADMINISTRADOR</option>
             <option value="ASESOR">ASESOR</option>
+            <option value="ASESOR">VENDEDOR</option>
           </select>
 
           <div class="input-field">
@@ -105,6 +108,7 @@ $row = mysqli_num_rows($sel);
                       <option value="<?php echo $f['nivel'] ?>" ><?php echo $f['nivel'] ?></option>
                       <option value="ADMINISTRADOR">ADMINISTRADOR</option>
                       <option value="ASESOR">ASESOR</option>
+                      <option value="VENDEDOR">VENDEDOR</option>
                     </select>
               </td>
               <td>
