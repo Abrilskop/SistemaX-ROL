@@ -25,4 +25,29 @@ El proyecto sigue una estructura modular para organizar el código:
 ## Instalación y ejecución  
 1. Clona este repositorio:  
    ```bash
-   git clone https://github.com/tuusuario/SistemaX-Rol.git
+   git clone https://github.com/tuusuario/SistemaX-Rol.git   
+
+2. Configura la base de datos usando los scripts proporcionados en el directorio `/db`.
+
+3. Abre XAMPP y activa el servidor Apache y MySQL.
+
+4. Configura el archivo `conexion.php` con tus credenciales de base de datos.
+
+5. Accede al sistema desde tu navegador en [http://localhost/SistemaX-Rol](http://localhost/SistemaX-Rol).
+
+## Roles y permisos
+
+El sistema incluye tres roles predefinidos:
+
+- **Administrador**: Acceso completo al sistema.
+- **Asesor**: Acceso limitado a módulos específicos.
+- **Vendedor**: Acceso restringido a las funcionalidades básicas.
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas yei! Si tienes sugerencias o mejoras, siéntete libre de abrir un issue o enviar un pull request.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
